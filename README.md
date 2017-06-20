@@ -135,12 +135,12 @@
 ## Interrupt Service Routines
 
   <a name="isrs"></a><a name="4.1"></a>
-  - [4.1](isrs--simple) **Simple: ** Prefer simpler ISR structures**
+  - [4.1](isrs--simple) **Simple:** Prefer simpler ISR structures
 
   Interrupts, being asynchronous, are difficult test comprehensively and even
   more difficult to debug. 
 
-  - [4.2](isrs--short) **Quick: ** Return from the ISR as soon as practical**
+  - [4.2](isrs--short) **Quick:** Return from the ISR as soon as practical
 
 
 <!---
@@ -159,11 +159,11 @@
 ## Naming
 
   <a name="naming"></a>
-  This guide adopts the [naming](https://google.github.io/styleguide/cppguide.html#Naming) section of the Google C++ Style Guide.
+  This guide adopts the [Naming](https://google.github.io/styleguide/cppguide.html#Naming) section of the Google C++ Style Guide.
     
 ## Formatting
 
   <a name="formatting"></a>
   
-  This guide adopts the [formatting](https://google.github.io/styleguide/cppguide.html#Formatting) section of the Google C++ Style Guide.
+  This guide adopts the [Formatting](https://google.github.io/styleguide/cppguide.html#Formatting) section of the Google C++ Style Guide.
   
