@@ -7,6 +7,7 @@
   1. [Modules](#modules)
   1. [Header Files](#header-files)
   1. [Limited Resources](#limited-resources)
+  1. [Interrupt Service Routines](#isrs)
   1. [Scoping](#scoping)
   1. [Functions](#functions)
   1. [Naming](#naming)
@@ -129,12 +130,25 @@
   
   <a name="3.2"></a>
   - [3.2](limited-resources--macros) **Macro arguments**: Always put
-  parenthesis around the formal parameters ofmacros.
+  parenthesis around the formal parameters of macros.
 
+## Interrupt Service Routines
+
+  <a name="isrs"></a><a name="4.1"></a>
+  - [4.1](isrs--simple) **Simple: ** Prefer simpler ISR structures**
+
+  Interrupts, being asynchronous, are difficult test comprehensively and even
+  more difficult to debug. 
+
+  - [4.2](isrs--short) **Quick: ** Return from the ISR as soon as practical**
+
+
+<!---
 ## Scoping
 
   <a name="scoping"></a><a name="4.1"></a>
-  - [4.1](scoping-struct)
+  - [5.1](scoping-struct)
+-->
   
 
 ## Functions
