@@ -50,15 +50,17 @@
     
     If the state is large, memory can be allocated for from the heap.
   
-  - [1.4](prefer-pure-functions) **Prefer functions with no side effects**: Whenever possible, organize the code as functions that use only their arguments as inputs and which return a value, without other side effects.
+  - [1.5](prefer-pure-functions) **Prefer functions with no side effects**: Whenever possible, organize the code as functions that use only their arguments as inputs and which return a value, without other side effects.
     
     Side effects include i/o operations and modifying static variables. Pure (side-effect free) functions are easy to unit test and easy to reason about.
   
-  - [1.4](object-based-programming) **Object-like Programming**: Use an object-like style only when necessary.
+  - [1.6](object-based-programming) **Object-like Programming**: Use an object-like style only when necessary.
   
     If an object-oriented style fits some part of the program logic, especially if multiple instances are needed, then an object-based style may be considered.
     
-    A single module represents that would be the *class* in an object-oriented language. A *struct* in the header file holds the state of an instance.  Function rototypes in the header file represent methods. Functions local to the *.c* file represent private methods.
+    A single module represents that would be the *class* in an object-oriented
+    language. A *struct* in the header file holds the state of an instance.
+    Function prototypes in the header file represent methods. Functions local to the *.c* file represent private methods.
     
     The convention is to pass a pointer to the instance's state as the first argument of the functions.
     
@@ -82,7 +84,7 @@
     A header file should contain only the constants and data structures need by the modules which use the header file. Constants and data structures which are part of the internal implementation of the module should reside in the module's *.c* file.
     
   <a name="1.4"></a>
-  - [2.3](header-files--no-args) **Functions with no arguments**: Use *void* to indicate that a function takes no arguments.
+  - [2.4](header-files--no-args) **Functions with no arguments**: Use *void* to indicate that a function takes no arguments.
   
     Bad:
     
