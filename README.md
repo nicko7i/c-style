@@ -103,22 +103,17 @@
 
 ## Functions
 
-  <a name="functions"></a><a name="2.1"></a>
-  - [4.1](functions-x)
-
-    This guide adopts the [Functions](https://google.github.io/styleguide/cppguide.html#Functions) section of the Google C++ Style Guide.
+  <a name="functions"></a>
+  This guide adopts the [Functions](https://google.github.io/styleguide/cppguide.html#Functions) section of the Google C++ Style Guide.
     
 ## Naming
 
-  <a name="naming"></a><a name="2.1"></a>
-  - [5.1](naming-x)
-
-    This guide adopts the [naming](https://google.github.io/styleguide/cppguide.html#Naming) section of the Google C++ Style Guide.
+  <a name="naming"></a>
+  This guide adopts the [naming](https://google.github.io/styleguide/cppguide.html#Naming) section of the Google C++ Style Guide.
     
 ## Formatting
 
-  <a name="formatting"></a><a name="2.1"></a>
-  - [6.1](formatting-x) **Use Google Style**
+  <a name="formatting"></a>
   
-    This guide adopts the [formatting](https://google.github.io/styleguide/cppguide.html#Formatting) section of the Google C++ Style Guide.
+  This guide adopts the [formatting](https://google.github.io/styleguide/cppguide.html#Formatting) section of the Google C++ Style Guide.
   
